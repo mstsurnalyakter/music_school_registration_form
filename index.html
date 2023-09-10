@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music School Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="">
+        <!-- header starts here -->
+        <section class="header common">
+            <h1>Music School Registration</h1>
+            <p>Registration to our music school from below</p>
+        </section>
+        <hr>
+        <!-- header ends here -->
+
+        <!-- name section starts here -->
+        <section class="name_section common">
+            <h3>Name <span>*</span></h3>
+            <section class="name">
+                 <section >
+                <input type="text" name="fname" id="fname">
+                <label for="fname">First Name</label>
+            </section>
+            <section  >
+                <input type="text" name="lname" id="lname">
+                <label for="lname">Last Name</label>
+            </section>
+            </section>
+        </section>
+        <!-- name section ends here -->
+
+        <!-- date starts here -->
+        <section class="date_section common">
+            <h3>Birth Date <span>*</span></h3>
+            <section>
+                <select name="mon" id="mon">
+                    <option value=""></option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="Aprile">Aprile</option>
+                </select>
+                <label for="mon">Month</label>
+            </section>
+            <section>
+                <select name="day" id="day">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label for="day">Day</label>
+            </section>
+            <section>
+                <select name="year" id="year">
+                    <option value=""></option>
+                     <option value="2023 ">2023 </option>
+                     <option value=" 2022 "> 2022 </option>
+                     <option value=" 2021 "> 2021 </option>
+                     <option value=" 2020 "> 2020 </option>
+                     <option value=" 2019 "> 2019 </option>
+                     <option value=" 2018 "> 2018 </option>
+                     <option value=" 2017 "> 2017 </option>
+                    </select>
+                    <label for="year">Year</label>
+            </section>
+        </section>
+        <!-- date ends here -->
+
+        <!-- instrument section starts here -->
+        <section class="intrument_section common">
+            <h3>Choice of Instrument <span>*</span></h3>
+           <section>
+             <select name="instrument" id="instrument">
+                <option value="Violin ">Violin</option>
+                <option value="Bass ">Bass</option>
+                <option value="Drums ">Drums</option>
+            </select>
+           </section>
+        </section>
+        <!-- instrument section ends here -->
+
+        <!-- pick day section starts here  -->
+                <section class="pick_section common">
+                    <h3>Pick Days for Classes <span>*</span></h3>
+                    <section class="ch">
+                      <section>
+                          <input type="checkbox" name="monday" id="monday">
+                        <label for="monday">Monday</label>
+                      </section>
+                        <section>
+                            <input type="checkbox" name="Tuesday" id="Tuesday">
+                        <label for="Tuesday">Tuesday</label>
+                        </section>
+                       <section>
+                         <input type="checkbox" name="Wednesday" id="Wednesday">
+                        <label for="Wednesday">Wednesday</label>
+                       </section>
+                        <section>
+                            <input type="checkbox" name="Thurseday" id="Thurseday">
+                        <label for="Thurseday">Thurseday</label>
+                        </section>
+                        <section>
+                            <input type="checkbox" name="Friday" id="Friday">
+                        <label for="Friday">Friday</label>
+                        </section>
+                       <section>
+                         <input type="checkbox" name="Saturday" id="Saturday">
+                        <label for="Saturday">Saturday</label>
+                       </section>
+                       <section>
+                         <input type="checkbox" name="Sunday" id="Sunday">
+                        <label for="Sunday">Sunday</label>
+                       </section>
+                    </section>
+                </section>
+        <!-- pick day section ends here  -->
+
+        <!-- time section starts here -->
+        <!-- time section ends here -->
+
+        <!-- comments section starts here -->
+        <section class="comment_section common">
+            <h3>Comments <span>*</span></h3>
+            <section>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </section>
+        </section>
+
+        <!-- comments section ends here -->
+
+        <!-- submit section starts here -->
+        <section class="submit_section common">
+            <button type="submit">Submit</button>
+        </section>
+        <!-- submit section ends here -->
+        <hr>
+
+        <!-- logo section starts here -->
+        <section class="logo_section common">
+            <img src="./encrypted-form-badge.png" alt="">
+        </section>
+        <!-- logo section ends here -->
+
+    </form>
+
+</body>
+</html>

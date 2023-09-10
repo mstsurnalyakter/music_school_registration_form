@@ -1,0 +1,124 @@
+:root{
+    --padding:0.8rem;
+    --margin:0.3rem
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body{
+    background-color: #333;
+    height: 100vh;
+}
+
+
+form{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+}
+
+
+
+.common {
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding);
+    margin: var(--margin);
+}
+
+  input,
+  select{
+    padding: 0.4rem;
+    margin-bottom: 10px;
+}
+label{
+ }
+
+h3{
+    padding: var(--padding);
+}
+
+
+.name{
+    display: flex;
+}
+.name_section{
+
+}
+
+.date_section{
+    flex-direction: row;
+}
+
+.date_section section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.intrument_section{
+    flex-direction: row;
+}
+
+.pick_section{
+    flex-direction: row;
+}
+
+.pick_section .ch{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.submit_section button{
+    display: inline-block;
+    width: 7rem;
+    padding: 4px;
+    text-transform: uppercase;
+
+}
+
+ .logo_section{
+    position: relative;
+    padding: var(--padding);
+ }
+
+.logo_section img{
+   position: absolute;
+    display: inline-block;
+    width: 4rem;
+    top: 0;
+    right: 0;
+}
+
+span{
+    color: red;
+}
+
+.name > section{
+    display: flex;
+    margin: 2px;
+    flex-direction: column;
+}
+
+ @media screen and (min-width:992px) {
+    :root{
+    --padding:0.865rem;
+    --margin:0.3rem
+}
+
+
+.name > section{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+ }
